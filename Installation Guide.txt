@@ -2,38 +2,24 @@ Installation Guide
 
 Follow these steps to run the Weather Dashboard locally:
 
-Clone the Repository:
+(1)Clone the Repository:
 
 git clone https://github.com/your-username/weather-dashboard.git
 cd weather-dashboard
 
-Install Dependencies:
+(2)Install Dependencies:
 Ensure you have Node.js installed.
 
 npm install
 
-Set Up Environment Variables:
+(3)Set Up Environment Variables:
 Create a .env file in the root directory and add your API key for the weather service:
 
-API_KEY=your_weather_api_key_here
+"API_KEY=c1a8b9caddfcc2ff7292b6d5f9627c9f"
 
-Run the Application:
+(4)Run the Application:
 Start the server locally:
 
 npm start
 
 Open your browser and navigate to http://localhost:3000.
-
-Build for Production (if applicable):
-
-npm run build
-
-Usage Guide
-
-Open the application in your browser (local or deployed version).
-
-Use the search bar to enter a city name or coordinates.
-
-View the current weather conditions and the 5-day forecast.
-
-Interact with the graphical components for a detailed analysis of the weather trends.
