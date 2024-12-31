@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif; 
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#home-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 0;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#home-button:hover {
+    background-color: #66a6ff;
+}
+
+#weather-container {
+    background: radial-gradient(135deg, #89f6fe73, #66a6ff6c);
+    max-width: 400px;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 0 20px 32px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(50px);
+    border:"5px" solid rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+h1, label, p {
+    font-family: 'montserrat', sans-serif;
+    color: ghostwhite;
+    margin: 12px 0;
+}
+
+input {
+background-color: rgb(61, 61, 61);
+width: calc(100% - 16px);
+padding: 8px;
+box-sizing: border-box;
+border-radius: 10px;
+border: 1px solid white;
+margin-top: 20px;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.336);
+    color: white;
+    padding: 10px;
+    border:rgb(0, 0, 0);
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100px;
+    font-size: 18px;
+}
+
+button:hover {
+    background: #0d1961da;
+}
+
+#temp-div p {
+    font-size: 60px;
+    margin-top: -30;
+}
+
+#weather-info {
+    font-size: 20px;
+}
+
+#weather-icon {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 10px;
+    margin-bottom: 0;
+    display: none;
+}
+
+#hourly-forecast{
+    margin-top: 50px;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content:space-between;
+}
+
+.hourly-item {
+    flex: 0 0 auto;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    color:white ;
+}
+
+.hourly-item img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+#hourly-heading {
+    color: #fff;
+    margin-top: 10px;
+}
+.history-container {
+    margin: 20px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    max-height: 150px;
+    overflow-y: auto;
+    color: white;
+    text-align: left;
+}
+
+.history-item {
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.history-item:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
