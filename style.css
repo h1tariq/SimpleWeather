@@ -93,7 +93,12 @@ button:hover {
     display: flex;
     justify-content:space-between;
 }
-
+h2{
+    text-align: left;
+    position: absolute;
+    top: 250px;
+    left: 25px;
+}
 .hourly-item {
     flex: 0 0 auto;
     width: 80px;
@@ -103,7 +108,11 @@ button:hover {
     margin-right: 10px;
     color:white ;
 }
-
+#search-results{
+    position: absolute;
+    left: 25px;
+    top: 300px;
+}
 .hourly-item img{
     width: 30px;
     height: 30px;
@@ -113,24 +122,4 @@ button:hover {
 #hourly-heading {
     color: #fff;
     margin-top: 10px;
-}
-.history-container {
-    margin: 20px 0;
-    padding: 10px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
-    max-height: 150px;
-    overflow-y: auto;
-    color: white;
-    text-align: left;
-}
-
-.history-item {
-    cursor: pointer;
-    padding: 5px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.history-item:hover {
-    background: rgba(255, 255, 255, 0.2);
 }
