@@ -1,6 +1,7 @@
 <!DOCTYPE html> 
 <html lang="en">
 <head> 
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
@@ -12,15 +13,20 @@
 
 <body>
     <button id="home-button">Home</button>
+    <div id="search-history"></div>
+    <h2>Search History</h2>
+    <div id="search-results"></div>
     <div id="weather-container">
-    <div id="search-history" class="history-container"></div>
     <h1>SimpleWeather</h1>
     <input type="text" id="city" placeholder="Enter Location">
-    <button onclick="getWeather()">Search</button>
+    <button onclick="getWeather();searchHistory()">Search</button>
     <img id="weather-icon" alt="Weather">
     <div id="temp-div"></div>
     <div id="weather-info"></div>
     <div id="hourly-forecast"></div>
+    <div id="sunTimes">
+        <p>Sunrise: <span id="Sunrise"></span></p>
+        <p>Sunset: <span id="sunset"></span></p>
     </div>
 </div> 
 <script src="script.js"></script>
