@@ -100,7 +100,14 @@ function showImage() {
     const weatherIcon = document.getElementById('weather-icon');
     weatherIcon.style.display = 'block'; // Make the weather icon visible
 }
-
+// Search History function
+function searchHistory() {
+    var recentSearch = $('#city').val(); // Get the value from input
+    if (recentSearch.trim() === "") return; // Prevent adding empty values
+    const p = document.createElement("p");
+    p.innerHTML = recentSearch;
+    document.getElementById("search-results").appendChild(p);
+}
 
 function updateSunTimes(data) {
     const sunriseTimestamp = data.sys.sunrise;
