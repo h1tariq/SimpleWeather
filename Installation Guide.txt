@@ -1,25 +1,14 @@
-Installation Guide
+Step (1) Clone or Download the Repository
+   Click the green Code button on GitHub and download the ZIP file.
 
-Follow these steps to run the Weather Dashboard locally:
+Step (2) Get Your API Key
+   Sign up on OpenWeatherMap and grab your API key.
 
-(1)Clone the Repository:
+Step (3) Add Your API Key to the Project
+Open script.js in any text editor.
+Find this line:
+"const apiKey = "YOUR_API_KEY_HERE";"
+Replace "YOUR_API_KEY_HERE" with your actual API key and save the file.
 
-git clone https://github.com/your-username/weather-dashboard.git
-cd weather-dashboard
-
-(2)Install Dependencies:
-Ensure you have Node.js installed.
-
-npm install
-
-(3)Set Up Environment Variables:
-Create a .env file in the root directory and add your API key for the weather service:
-
-"API_KEY=c1a8b9caddfcc2ff7292b6d5f9627c9f"
-
-(4)Run the Application:
-Start the server locally:
-
-npm start
-
-Open your browser and navigate to http://localhost:3000.
+Step (4) Run the App
+Just open index.html in your browser. That’s it!
