@@ -9,6 +9,6 @@ Open script.js in any text editor.
 Find this line:
 "const apiKey = "YOUR_API_KEY_HERE";"
 Replace "YOUR_API_KEY_HERE" with your actual API key and save the file.
-
+(In this case, for the submission of work I have included my own API key for ease of access for the examiner)
 Step (4) Run the App
 Just open index.html in your browser. That’s it!
